@@ -3,3 +3,6 @@ theme:
   name: material
 plugins:
   - blog
+nav:
+  - Blog:
+    - blog/index.md
