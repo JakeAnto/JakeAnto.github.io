@@ -6,6 +6,12 @@ theme:
   features:
     - content.action.view
     - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.share
+    - search.highlight
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -26,7 +32,9 @@ theme:
 plugins:
   - blog:
       blog_toc: true
-  - search
+      post_url_format: "{slug}"
+  - search:
+      lang: en
 
 extra:
   social:
@@ -35,6 +43,8 @@ extra:
       name: Jake Anto on GitHub
 
 nav:
+  - About me:
+    - index.md
   - Blog:
     - blog/index.md
 
