@@ -5,6 +5,7 @@ theme:
   language: en
   features:
     - content.action.view
+    - navigation.instant
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
