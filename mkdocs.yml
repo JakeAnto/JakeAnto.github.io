@@ -19,7 +19,10 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 plugins:
-  - blog
+  - blog:
+      blog_toc: true
+  # - search
+
 nav:
   - Blog:
     - blog/index.md
