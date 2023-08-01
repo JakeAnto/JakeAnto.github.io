@@ -1,4 +1,4 @@
-site_name: Blog
+site_name: Jake Anto
 
 theme:
   name: material
@@ -15,16 +15,16 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: cyan
-      accent: light blue
+      primary: orange
+      accent: yellow
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: cyan
-      accent: light blue
+      primary: orange
+      accent: yellow
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
