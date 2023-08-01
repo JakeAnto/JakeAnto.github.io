@@ -5,4 +5,4 @@ plugins:
   - blog
 nav:
   - Blog:
-    - blog/index.md
+    - index.md
