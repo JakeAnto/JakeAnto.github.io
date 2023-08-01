@@ -1,7 +1,10 @@
 site_name: Blog
+
 theme:
   name: material
   language: en
+  features:
+    - content.action.view
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -18,11 +21,21 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
 plugins:
   - blog:
       blog_toc: true
   # - search
 
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/JakeAnto
+      name: Jake Anto on GitHub
+
 nav:
   - Blog:
     - blog/index.md
+
+edit_uri: https://github.com/jakeanto/jakeanto.github.io/edit/main/docs/
+copyright: This work is licensed under <not decided yet>
