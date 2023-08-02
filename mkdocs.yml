@@ -3,6 +3,9 @@ site_name: Jake Anto
 theme:
   name: material
   language: en
+  icon:
+    logo: material/laptop
+
   features:
     - content.action.view
     - navigation.instant
@@ -31,10 +34,14 @@ theme:
 
 plugins:
   - blog:
-      blog_toc: true
+      blog_toc: false
       post_url_format: "{slug}"
   - search:
       lang: en
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: timeago
+  - social
 
 extra:
   social:
