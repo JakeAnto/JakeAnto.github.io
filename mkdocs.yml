@@ -54,7 +54,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/JakeAnto
+      link: https://github.com/j-eo
       name: Jake Anto on GitHub
 
 nav:
@@ -63,5 +63,5 @@ nav:
   - Blog:
     - blog/index.md
 
-edit_uri: https://github.com/jakeanto/jakeanto.github.io/edit/main/docs/
+edit_uri: https://github.com/j-eo/j-eo.github.io/edit/main/docs/
 copyright: This work is licensed under <not decided yet>
