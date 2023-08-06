@@ -5,6 +5,7 @@ authors:
   - Jake
 categories:
   - Meta
+comments: true
 ---
 
 # Hello, World!
