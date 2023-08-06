@@ -6,7 +6,6 @@ theme:
   language: en
   icon:
     logo: material/laptop
-    repo: fontawesome/brands/github
 
   features:
     - content.action.view
@@ -65,13 +64,11 @@ extra:
       name: Jake Anto on GitHub
 
 nav:
-  - About me:
+  - About Me:
     - index.md
   - Blog:
     - blog/index.md
 
 edit_uri: https://github.com/j-eo/j-eo.github.io/edit/main/docs/
-repo_url: https://github.com/j-eo/j-eo.github.io
-repo_name: GitHub Repository
 
 copyright: This work © 2023 by Jake Anto is licensed under <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
