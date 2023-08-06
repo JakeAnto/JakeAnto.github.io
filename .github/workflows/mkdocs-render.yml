@@ -21,5 +21,11 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material==9.2.0b3 mkdocs-rss-plugin pillow cairosvg mkdocs-git-revision-date-localized-plugin
+      - run: pip install \
+              mkdocs-material==9.2.0b3 \
+              mkdocs-rss-plugin \
+              pillow \
+              cairosvg \
+              mkdocs-git-revision-date-localized-plugin \
+              mkdocs-glightbox
       - run: mkdocs gh-deploy --force
