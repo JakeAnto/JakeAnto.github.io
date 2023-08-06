@@ -2,9 +2,11 @@ site_name: Jake Anto
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   icon:
     logo: material/laptop
+    repo: fontawesome/brands/github
 
   features:
     - content.action.view
@@ -42,9 +44,11 @@ plugins:
       enable_creation_date: false
       type: timeago
   - social
+  - glightbox  
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - toc:
       permalink: true
   - pymdownx.emoji:
@@ -64,4 +68,7 @@ nav:
     - blog/index.md
 
 edit_uri: https://github.com/j-eo/j-eo.github.io/edit/main/docs/
+repo_url: https://github.com/j-eo/j-eo.github.io
+repo_name: GitHub Repository
+
 copyright: This work is licensed under <not decided yet>
