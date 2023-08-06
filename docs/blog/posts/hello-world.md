@@ -11,7 +11,7 @@ categories:
 
 Everything starts with a `Hello, World!`, and so does my blog. Welcome to my blog!
 <!-- more -->
-My name is Jake Anto and I am from India. More information about me can be found on the [homepage](../../index.md).
+I am Jake Anto from India. More information about me can be found on the [homepage](../../index.md).
 
 ## About the blog
 
