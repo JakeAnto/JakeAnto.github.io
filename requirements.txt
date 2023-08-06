@@ -1,0 +1,6 @@
+mkdocs-material==9.2.0b3
+mkdocs-rss-plugin
+pillow
+cairosvg
+mkdocs-git-revision-date-localized-plugin
+mkdocs-glightbox
