@@ -2,7 +2,7 @@ site_name: Jake Anto
 
 theme:
   name: material
-  # custom_dir: overrides
+  custom_dir: overrides
   language: en
   icon:
     logo: material/laptop
