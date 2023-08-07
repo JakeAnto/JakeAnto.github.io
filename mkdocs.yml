@@ -1,4 +1,6 @@
 site_name: Jake Anto
+site_description: Jake Anto's personal website and blog.
+site_author: Jake Anto
 
 theme:
   name: material
