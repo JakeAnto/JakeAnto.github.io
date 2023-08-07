@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+<!-- display hero after tabs -->
+{% block tabs %}
+{{ super() }}
+
+<style>
+    .hero {
+        color: var(--md-typeset-color);
+        text-align: center;
+        padding-top: 50px;
+        /*background: linear-gradient(0deg, transparent 90%, var(--md-primary-fg-color) 100%);*/
+    }
+
+    .hero h1 {
+        color: var(--md-typeset-color);
+        font-weight: 700;
+        font-size: 38px;
+        margin: 0;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 0 auto;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Hero buttons overrides */
+    .md-typeset .md-button--primary:hover {
+        color: var(--md-primary-fg-color);
+        background-color: transparent!important; /* overriding .md-button:hover */
+        border-color: var(--md-primary-fg-color);
+    }
+
+    .md-typeset .md-button:hover {
+        background-color: var(--md-primary-fg-color);
+        border-color: var(--md-primary-fg-color);
+    }
+
+    .hero-button {
+        margin: 0px 3px 15px 3px;
+    }
+</style>
+
+<div class="hero md-typeset">
+    <img class="profile-image" src="https://github.com/j-eo.png" alt="Jake's profile image">
+    <h1>Jake Anto</h1>
+    <p>This webpage is a work in progress</p>
+    <a class="hero-button md-button" href="#about-me">About Me</a>
+    <a class="hero-button md-button md-button--primary" href="blog/">Visit my blog <span class="twemoji"><svg
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path>
+            </svg></span></a>
+</div>
+
+{% endblock %}
