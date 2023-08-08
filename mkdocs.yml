@@ -11,6 +11,7 @@ theme:
 
   features:
     - content.action.view
+    - content.code.copy
     - navigation.instant
     - navigation.tabs
     - navigation.top
