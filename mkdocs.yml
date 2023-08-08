@@ -81,6 +81,9 @@ extra:
     - icon: fontawesome/brands/github 
       link: https://github.com/j-eo
       name: Jake Anto on GitHub
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@jake_a
+      name: Jake Anto on Fosstodon
 
 nav:
   - About Me:
