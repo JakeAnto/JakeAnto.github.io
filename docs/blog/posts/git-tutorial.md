@@ -55,10 +55,14 @@ git version 2.40.0
 
 ## Getting started
 
-??? tip inline end "Relevant comic to scare you"
-    <figure markdown>
+<!-- image wasn't rendering in admonition, workaround -->
+<details class="tip inline end" markdown><summary>Relevant comic to scare you</summary>
+<figure markdown>
 ![Relevant XKCD](https://imgs.xkcd.com/comics/git.png){ loading=lazy width=200px }
-    <figcaption markdown>:material-magnify-plus-outline: Click to enlarge. Source: [XKCD 1597](https://xkcd.com/1597).</figcaption></figure>
+<figcaption markdown>
+:material-magnify-plus-outline: Click to enlarge. Source: [XKCD 1597](https://xkcd.com/1597).</figcaption>
+</figure>
+</details>
 
 The first thing you do after installing Git is to set up your identity. Your username and email will be used to identify your commits. Use the following commands to set up your identity.
 
@@ -131,11 +135,14 @@ git commit -m "commit message"
 
 You should add an appropriate commit message to indicate the changes in the commit.
 
-??? warning "Commit messages are important"
-    <figure markdown>
+<!-- image wasn't rendering in admonition, workaround -->
+<details class="warning" markdown><summary>Commit messages are important</summary>
+<figure markdown>
 ![Relevant XKCD](https://imgs.xkcd.com/comics/git_commit.png){ loading=lazy align=right }
-    <figcaption markdown>:material-magnify-plus-outline: Click to enlarge. Source: [XKCD 1296](https://xkcd.com/1296).</figcaption></figure>
-    Commit messages help you and others understand the changes made in the commit. A good commit message should be short and descriptive. It should be in the imperative mood, and should not end with a period. For example, a good commit message would be `Add README.md` or `Fix typo in README.md` instead of `Added README.md` or `fixed typo in README.md.`.
+<figcaption markdown>:material-magnify-plus-outline: Click to enlarge. Source: [XKCD 1296](https://xkcd.com/1296).</figcaption>
+</figure>
+Commit messages help you and others understand the changes made in the commit. A good commit message should be short and descriptive. It should be in the imperative mood, and should not end with a period. For example, a good commit message would be `Add README.md` or `Fix typo in README.md` instead of `Added README.md` or `fixed typo in README.md.`.
+</details>
 
 ### Viewing commit history
 
