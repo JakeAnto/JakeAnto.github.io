@@ -1,6 +1,7 @@
 site_name: Jake Anto
-site_description: Jake Anto's personal website and blog.
+site_url: https://jake.is-a.dev/
 site_author: Jake Anto
+site_description: Jake Anto's personal website and blog.
 
 theme:
   name: material
