@@ -25,7 +25,7 @@ Git was originally authored by [Linus Torvalds](https://en.wikipedia.org/wiki/Li
 
     <blockquote>I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'Git'.</blockquote>
 
-    Git is a British slang for *a silly, incompetent, stupid or annoying person*.[^1] According to him, Git can mean anything according to your mood[^2]:
+    Git is a British slang for *a silly, incompetent, stupid or annoying person*.[^1] According to him, Git can mean anything according to your mood:[^2]
 
     1. Random three-letter combination that is pronounceable, and not actually used by any common UNIX command. The fact that it is a mispronunciation of "get" may or may not be relevant.
     2. Stupid. Contemptible and despicable. Simple. Take your pick from the dictionary of slang.
