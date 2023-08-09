@@ -58,8 +58,7 @@ git version 2.40.0
 ??? tip inline end "Relevant comic to scare you"
     <figure markdown>
 ![Relevant XKCD](https://imgs.xkcd.com/comics/git.png){ loading=lazy width=200px }
-    <figcaption markdown>:material-magnify-plus-outline: Click to enlarge. Source: [XKCD 1597](https://xkcd.com/1597).</figcaption>
-</figure>
+    <figcaption markdown>:material-magnify-plus-outline: Click to enlarge. Source: [XKCD 1597](https://xkcd.com/1597).</figcaption></figure>
 
 The first thing you do after installing Git is to set up your identity. Your username and email will be used to identify your commits. Use the following commands to set up your identity.
 
@@ -135,8 +134,7 @@ You should add an appropriate commit message to indicate the changes in the comm
 ??? warning "Commit messages are important"
     <figure markdown>
 ![Relevant XKCD](https://imgs.xkcd.com/comics/git_commit.png){ loading=lazy align=right }
-    <figcaption markdown>:material-magnify-plus-outline: Click to enlarge. Source: [XKCD 1296](https://xkcd.com/1296).</figcaption>
-</figure>
+    <figcaption markdown>:material-magnify-plus-outline: Click to enlarge. Source: [XKCD 1296](https://xkcd.com/1296).</figcaption></figure>
     Commit messages help you and others understand the changes made in the commit. A good commit message should be short and descriptive. It should be in the imperative mood, and should not end with a period. For example, a good commit message would be `Add README.md` or `Fix typo in README.md` instead of `Added README.md` or `fixed typo in README.md.`.
 
 ### Viewing commit history
