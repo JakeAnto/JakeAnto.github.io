@@ -46,10 +46,10 @@ winget install --id Git.Git -e --source winget
 
 ### Verify installation
 
-To check if Git is installed on your machine, run the following command:
+To check if Git is installed on your machine, run `git version`. If Git is installed and configured correctly, the command will output the version of Git.
 
 ``` bash
-$ git --version
+$ git version
 git version 2.40.0
 ```
 
@@ -72,6 +72,9 @@ git config --global user.email "youremail@domain.tld"
 ```
 
 Replace `your-username` and `youremail@domain.tld` with your username and email respectively.
+
+!!! warning "Use an appropriate username and email"
+    Since this information will be publicly visible in your commits, use an appropriate username and email unless you're developing locally. If you use GitHub, your GitHub username and email should be used. It is recommended to [hide your real email](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-commit-email-address-on-github) from your commits in GitHub.
 
 ??? tip "Global vs local configuration"
     You can use the `--global` flag to set your identity globally, or you can omit it to set your identity for the current repository only.
