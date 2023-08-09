@@ -11,14 +11,14 @@ comments: true
 
 # How to get started with Git
 
-[:material-git: Git](https://git-scm.com/) is a free and open-source distributed VCS (version control system) designed for programmers to collaborate together on projects. Understanding Git is essential for anyone interested in contributing to open-source, and this tutorial will help you get started.
+[:material-git: Git](https://git-scm.com/) is a free and open-source distributed version control system (VCS) designed for programmers to collaborate together on projects. Understanding Git is essential for anyone interested in contributing to open-source, and this tutorial will help you get started.
 <!-- more -->
 ??? warning "Do not confuse Git with GitHub or GitLab"
-    Git is a VCS (version control system), while GitHub and GitLab are web-based Git repository hosting services. They are used to host Git repositories, and provide additional features like issue tracking, pull requests, etc.
+    Git is a version control system, while GitHub and GitLab are web-based Git repository hosting services. They are used to host Git repositories, and provide additional features like issue tracking, pull requests, etc.
 
 ## More about Git
 
-Git was originally authored by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in 2005 for the development of the [Linux kernel](https://kernel.org/). It is used by millions of developers worldwide, and is the most popular VCS in the world. It is performant and feature-rich, and is extensively used by almost all major tech companies.
+Git was originally authored by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in 2005 for the development of the [Linux kernel](https://kernel.org/). It is used by millions of developers worldwide, and is the most popular VCS in the world. It is performant and feature-rich, and it is extensively used by almost all major tech companies
 
 ??? tip "Random Git trivia"
     Here's what Linus had to say about its name:
@@ -127,7 +127,7 @@ Whenever we complete a task, we stage them to the index. Staged files are ready 
 
 ### Committing files
 
-Our files are now waiting to be committed (permanently saved) to the repository. Run the following command to commit the staged files:
+Our files are now waiting to be committed (saved) to the repository. Run the following command to commit the staged files:
 
 ``` bash
 git commit -m "commit message"
