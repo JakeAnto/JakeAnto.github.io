@@ -55,14 +55,13 @@ git version 2.40.0
 
 ## Getting started
 
-<!-- image wasn't rendering in admonition, workaround -->
-<details class="tip inline end" markdown><summary>Relevant comic to scare you</summary>
-<figure markdown>
-![Relevant XKCD](https://imgs.xkcd.com/comics/git.png){ loading=lazy width=200px }
-<figcaption markdown>
-:material-magnify-plus-outline: Click to enlarge. Source: [XKCD 1597](https://xkcd.com/1597).</figcaption>
-</figure>
-</details>
+??? tip "Basic Git terminology"
+    - **:octicons-repo-16: Repository**: Collection of files and folders that are tracked by Git. Also called repo for short.
+    - **:octicons-git-branch-16: Branch**: A branch is a version of the repository that diverges from the main repository.
+    - **:octicons-git-commit-16: Commit**: A snapshot of the changes made to a repository at a specific point in time.
+    - **:octicons-git-merge-16: Merge**: The process of combining two branches together.
+    - **:octicons-repo-pull-16: Pull**: The process of fetching and merging changes from a remote repository (like GitHub) to a local repository.
+    - **:octicons-repo-push-16: Push**: The process of sending local commits to a remote repository.
 
 The first thing to do after installing Git is setting up your identity. Your username and email will be used to identify your commits. Use the following commands to set it up:
 
@@ -126,6 +125,9 @@ This will add `README.md` to a temporary staging area which Git calls the *index
     git add .
     ```
 
+??? question "Why do we need to stage files?"
+    Staging files allows you to selectively commit only the files that you want to. This is useful when you want to commit only a few files, and not all the files in the repository.
+
 Whenever we complete a task, we stage them to the index. Staged files are ready to be committed to the repository. Let's commit our changes to the repository.
 
 ### Committing files
@@ -147,6 +149,8 @@ You should add an appropriate commit message to indicate the changes in the comm
 Commit messages help you and others understand the changes made in the commit. A good commit message should be short and descriptive. It should be in the imperative mood, and should not end with a period. For example, a good commit message would be `Add README.md` or `Fix typo in README.md` instead of `Added README.md` or `fixed typo in README.md.`.
 </details>
 
+Git has taken a snapshot of the staged changes in the repository. The commit message, along with the author and timestamp, is stored with the commit. Next, let’s learn how to view the commit history.
+
 ### Viewing commit history
 
 To view the commit history of your repository, run the following command:
@@ -155,7 +159,7 @@ To view the commit history of your repository, run the following command:
 git log
 ```
 
-Use the `--oneline` flag to view the commit history in a single line:
+Use the `--oneline` flag to view each commit in a single line:
 
 ``` bash
 git log --oneline
