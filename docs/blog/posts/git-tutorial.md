@@ -64,7 +64,7 @@ git version 2.40.0
 </figure>
 </details>
 
-The first thing you do after installing Git is to set up your identity. Your username and email will be used to identify your commits. Use the following commands to set up your identity.
+The first thing to do after installing Git is setting up your identity. Your username and email will be used to identify your commits. Use the following commands to set it up:
 
 ``` bash
 git config --global user.name "your-username"
