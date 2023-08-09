@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+<!-- microsoft site verification -->
+{% block site_meta %}
+{{ super() }}
+<meta name="msvalidate.01" content="F094636FC4C455E987BFC3E917310051" />
+{% endblock %}
+
 <!-- display hero after tabs -->
 {% block tabs %}
 {{ super() }}
