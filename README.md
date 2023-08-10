@@ -1,3 +1,5 @@
+[![Cloudflare Pages deployment](https://github.com/j-eo/website/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/j-eo/website/actions/workflows/pages/pages-build-deployment)
+
 ## About
 
 This is the source code of my website and blog. It is powered by [MkDocs](https://www.mkdocs.org/).
