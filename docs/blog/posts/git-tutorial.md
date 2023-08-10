@@ -51,7 +51,7 @@ To check if Git is installed on your machine, run `git version`. If Git is insta
 === ":octicons-command-palette-16:"
     ``` bash
     git version
-     ```
+    ```
 
 === "Example output"
     ``` bash
