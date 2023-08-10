@@ -1,3 +1,5 @@
+[![Cloudflare Pages deployment](https://github.com/j-eo/website/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/j-eo/website/actions/workflows/pages/pages-build-deployment)
+
 ## About
 
 This is the source code of my website and blog. It is powered by [MkDocs](https://www.mkdocs.org/).
@@ -8,14 +10,6 @@ Clone the repository and run `pip install -r requirements.txt` to install the de
 
 ```bash
 mkdocs build
-```
-
-## Deploy to GitHub Pages
-
-For deploying to GitHub Pages, run the following command:
-
-```bash
-mkdocs gh-deploy
 ```
 
 ## License
