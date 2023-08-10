@@ -47,11 +47,17 @@ winget install --id Git.Git -e --source winget
 ### Verify installation
 
 To check if Git is installed on your machine, run `git version`. If Git is installed and configured correctly, the command will output the version of Git.
+<!-- markdownlint-disable no-space-in-code -->
+=== ":octicons-command-palette-16:"
+    ``` bash
+    git version
+     ```
 
-``` bash
-$ git version
-git version 2.40.0
-```
+=== "Example output"
+    ``` bash
+    git version 2.40.0
+    ```
+<!-- markdownlint-enable no-space-in-code -->
 
 ## Getting started
 
