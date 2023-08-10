@@ -19,6 +19,7 @@ theme:
     - search.suggest
     - search.share
     - search.highlight
+    - content.code.annotate
 
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -61,6 +62,8 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.keys
   - footnotes
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
