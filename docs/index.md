@@ -6,7 +6,10 @@ hide:
   - toc
 ---
 
+<!-- Why do I have to do this:  -->
+<!-- markdownlint-disable single-title -->
 # About Me
+<!-- markdownlint-enable single-title -->
 
 My name is **Jake Anto** and I hail from India. I am currently pursuing a Bachelor's degree in Computer Science and Engineering.
 
