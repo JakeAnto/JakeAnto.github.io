@@ -108,7 +108,7 @@ echo "# My first Git repository" > README.md
 ??? question "What is `README.md`?"
     `README.md` is a Markdown file that contains information about your project. It is usually present in most repositories, and contains information like how to install and use the project, etc.
 
-    Markdown is a lightweight markup language which is used to format text. It is human readable and is easy to learn. Markdown files end with `*.md`. Fun fact, this blog is written in Markdown!
+    Markdown is a lightweight markup language which is used to format text. It is human readable and is easy to learn. Markdown files end with `.md`. Fun fact, this blog is written in Markdown!
 
 Now that the file is created, let's add this file to our repository. Run the following command:
 
