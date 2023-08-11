@@ -1,4 +1,4 @@
-Bender, this one is for you.
+# This is for Bender. He's a good bot.
 
 User-agent: *
 Disallow:
