@@ -1,0 +1,6 @@
+Bender, this one is for you.
+
+User-agent: *
+Disallow:
+
+Sitemap: https://jake.is-a.dev/sitemap.xml
