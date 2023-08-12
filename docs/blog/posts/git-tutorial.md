@@ -18,7 +18,7 @@ comments: true
 
 ## More about Git
 
-Git was originally authored by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in 2005 for the development of the [Linux kernel](https://kernel.org/). It is used by millions of developers worldwide, and is the most popular VCS in the world. It is performant and feature-rich, and it is extensively used by almost all major tech companies
+Git was originally authored by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in 2005 for the development of the [Linux kernel](https://kernel.org/). It is used by millions of developers worldwide, and is the most popular VCS in the world. It is performant and feature-rich, and it is extensively used by almost all major tech companies.
 
 ??? tip "Random Git trivia"
     Here's what Linus had to say about its name:
@@ -35,6 +35,8 @@ Git was originally authored by [Linus Torvalds](https://en.wikipedia.org/wiki/Li
 ## Installing Git
 
 Git usually comes installed by default on most Mac and Linux machines. If your machine does not come with Git, grab an appropriate download from the [official website](https://git-scm.com/downloads).
+
+If Git is already installed, you can [skip this section](#getting-started).
 
 ### Windows
 
