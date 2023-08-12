@@ -90,8 +90,7 @@ extra:
       name: Jake Anto on Fosstodon
 
 nav:
-  - About Me:
-    - index.md
+  - About Me: index.md
   - Blog:
     - blog/index.md
 
