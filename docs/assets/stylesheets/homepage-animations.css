@@ -1,0 +1,47 @@
+/* Animation classes */
+.blur-entrance {
+    animation: blur-entrance 1s ease-in both;
+}
+
+.slide-up:hover {
+    animation: slide-up 0.25s ease-in both;
+    animation-direction: alternate;
+}
+
+.slide-up:not(:hover) {
+    animation: slide-down 0.25s ease-out both;
+    animation-direction: alternate;
+}
+
+/* Animation keyframes */
+@keyframes blur-entrance {
+    0% {
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-6px);
+    }
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(-6px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
