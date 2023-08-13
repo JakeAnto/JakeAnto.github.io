@@ -48,9 +48,6 @@ plugins:
       post_url_format: "{slug}"
   - search:
       lang: en
-  - git-revision-date-localized:
-      enable_creation_date: false
-      type: timeago
   - social
   - glightbox  
 
