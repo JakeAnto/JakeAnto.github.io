@@ -3,3 +3,4 @@ default: true
 line-length: false
 no-inline-html: false
 code-block-style: false
+no-trailing-punctuation: false
