@@ -10,7 +10,7 @@ tags:
 comments: true
 ---
 
-# Markdown tutorial
+# Learn markdown in 10 minutes!
 
 [:material-language-markdown: Markdown](https://en.wikipedia.org/wiki/Markdown) is a simple markup language that allows you to write formatted text using a plain-text editor. It is a popular choice for writing documentation, blog posts, forum posts, and other content that is published online. If you don't know markdown already, this tutorial will teach you the basics.
 <!-- more -->
@@ -24,7 +24,7 @@ Markdown is now one of the most popular markup languages, and is used by many we
 
 ## Markdown syntax
 
-This guide will cover the basic markdown syntax which is supported by most markdown processors. I will use [CommonMark](https://commonmark.org/) as a reference.
+This guide will cover the basic markdown syntax which is supported by most markdown processors. I will use [CommonMark specification](https://spec.commonmark.org/) as the reference. Let's get started!
 
 ### Text formatting
 
@@ -290,3 +290,76 @@ There's a line above me! That's the horizontal rule.
     Hello, world!
     ***
     There's a line above me! That's the horizontal rule.
+
+### More markdown
+
+Congratulations! You've covered the basics of markdown. But that's not all. Let's learn about some nice features of markdown. All of this is supported by most markdown processors.
+
+#### HTML tags
+
+Most inline HTML tags are supported, meaning markdown is a superset of HTML (not necessarily, though). This means you can use HTML tags in markdown, but it isn't recommended.
+
+``` markdown
+Using a <abbr title="Virtual Private Network">VPN</abbr> will shift your trust from your <abbr title="Internet Service Provider">ISP</abbr> to your VPN provider.
+```
+
+You cannot use markdown syntax inside HTML tags in most markdown processors.
+
+??? abstract "See output"
+    Using a <abbr title="Virtual Private Network">VPN</abbr> will shift your trust from your <abbr title="Internet Service Provider">ISP</abbr> to your VPN provider.
+
+!!! success "Best practice"
+    For the best compatibility, avoid using HTML tags in markdown. Some markdown processors doesn't support all HTML tags.
+
+#### Automatic links
+
+URLs and emails can be converted to links automatically if you enclose them in angle brackets `<` and `>`. For example:
+
+``` markdown
+<https://neal.fun/> is a cool website.
+
+Email me your favorite websites at <email@example.com>.
+```
+
+??? abstract "See output"
+    <https://neal.fun/> is a cool website.
+
+    Email me your favorite websites at <email@example.com>.
+
+#### Escaping characters
+
+Sometimes, you may want to use characters that are reserved by markdown. You can escape these characters by adding a backslash `\` before the character. For example:
+
+``` markdown
+\*This is not italic\*
+
+\# This is not a heading
+
+All classes have a \__init__() function in Python.
+```
+
+??? abstract "See output"
+    \*This is not italic\*
+
+    \# This is not a heading
+
+    All classes have a \__init__() function in Python.
+
+## Extended syntax
+
+!!! question "Did you know?"
+    This blog post is written in markdown! Check out the [source code](https://github.com/j-eo/website/blob/main/docs/blog/posts/markdown-tutorial.md?plain=1) to see how it's done. You may not understand everything, because it uses extensions to the markdown syntax.
+
+The CommonMark syntax was not enough for some people, so they extended the syntax to add more features. Let's learn about some of them.
+
+### GitHub Flavored Markdown
+
+GitHub Flavored Markdown (GFM) is a superset of CommonMark. It adds some features that are useful for writing documentation, like tables, task lists, strikethrough, etc. If you use GitHub  The complete specification can be found [here](https://github.github.com/gfm/).
+
+### Markdown Extra
+
+Markdown Extra supports features like markdown support inside HTML blocks, footnotes, abbreviations, definition lists, fenced code blocks, etc. Learn more about it [here](https://michelf.ca/projects/php-markdown/extra/).
+
+## That's about it
+
+That's all you need to know to get started with markdown. Now, you can write `README.md` files for your GitHub repositories, write blog posts, and more!
