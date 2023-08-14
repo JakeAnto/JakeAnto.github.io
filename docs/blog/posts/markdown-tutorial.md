@@ -354,12 +354,12 @@ The CommonMark syntax was not enough for some people, so they extended the synta
 
 ### :material-github: GitHub Flavored Markdown
 
-GitHub Flavored Markdown (GFM) is a superset of CommonMark. It adds some features that are useful for writing documentation, like tables, task lists, strikethrough, etc. If you use GitHub  The complete specification can be found [here](https://github.github.com/gfm/).
+GitHub Flavored Markdown (GFM) is a superset of CommonMark. It adds some features that are useful for writing documentation, like tables, task lists, strikethrough, etc. Check out the [complete specification](https://github.github.com/gfm/) of GFM.
 
 ### Markdown Extra
 
-Markdown Extra (MDE) supports features like markdown support inside HTML blocks, footnotes, abbreviations, definition lists, fenced code blocks, etc. Learn more about it [here](https://michelf.ca/projects/php-markdown/extra/).
+Markdown Extra (MDE) supports features like markdown support inside HTML blocks, footnotes, abbreviations, definition lists, fenced code blocks, etc. Learn more about it [on their website](https://michelf.ca/projects/php-markdown/extra/).
 
 ## That's about it
 
-Now you can write beautifully formatted `README.md` files for your open-source repositories, write blog posts, and more! :sparkles:
+Now, you can write beautifully formatted `README.md` files for your open-source repositories, write blog posts, and more! :sparkles:
