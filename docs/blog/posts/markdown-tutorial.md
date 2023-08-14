@@ -42,13 +42,13 @@ __And, this text is also bold__
 
 It's pretty straightforward. Here are some more examples:
 
-| Markdown | HTML | Rendered output |
-| -------- | ---- | --------------- |
-| `Markdown is **fun!**` | `Markdown is <b>fun!</b>` | Markdown is **fun!** |
-| `Dumbledore said _calmly_.` | `Dumbledore said <em>calmly</em>` | Dumbledore said _calmly_. |
-| `Super*cali*fragilistc...` | `Super<em>cali</em>fragilistc...` | Super*cali*fragilistc... |
-| `...**expi**alidocious` | `...<b>expi</b>alidocious` | ...**expi**alidocious |
-| `***Very important!***` | `<b><em>Very important!</em></b>` | **_Very important!_** |
+| Markdown | Rendered output |
+| -------- | --------------- |
+| `Markdown is **fun!**` |  Markdown is **fun!** |
+| `Dumbledore said _calmly_.` |  Dumbledore said _calmly_. |
+| `Super*cali*fragilistc...` |  Super*cali*fragilistc... |
+| `...**expi**alidocious` | ...**expi**alidocious |
+| `***Very important!***` | **_Very important!_** |
 
 !!! success "Best practice"
     For the best compatibility, use `*` instead of `_` for emphasis.
@@ -97,7 +97,7 @@ This is an <h2>
 ---------------
 ```
 
-You can use formatting like emphasis in headings, too.
+You can use formatting (emphasis, links, etc.) in headings, too.
 
 !!! success "Best practice"
     Add a line before and after headings to make them readable.
@@ -112,7 +112,7 @@ Blockquotes are used to quote text from another source. Use `>` at the beginning
 >
 > It can span multiple paragraphs, too.
 > > This is a nested blockquote!
-> > **Wow!**
+> > > **Wow!**
 ```
 
 ??? abstract "See output"
@@ -171,7 +171,7 @@ Ordered lists can be created by using numbers followed by a period `.` or a righ
     2. Balthazar
     3. Melchior
 
-If you start the list with a number other than 1, the numbers will be incremented accordingly. Also, you don't have to write the numbers in order, only the first number matter.
+If you start the list with a number other than 1, the numbers will be incremented accordingly. Also, you don't have to write the numbers in order, only the first number matters.
 
 ### Links
 
@@ -189,6 +189,8 @@ Click [here](https://archive.org/) to visit the Internet Archive.
     Click [here](https://archive.org/) to visit the Internet Archive.
 
 ??? tip "Adding a title to links"
+    Link title is displayed when you hover over the link.
+
     Adding a title is as easy as adding a space after the URL and enclosing the title in quotes. For example:
 
     ``` markdown
@@ -208,11 +210,13 @@ Also, my social media accounts are listed [here][homepage].
 
 `homepage` is the link reference. It can consist of letters, numbers, spaces and punctuation. It's not case-sensitive.
 
-The last line is the link definition. It consists of the link reference, followed by a colon `:`, followed by the URL and can optionally be followed by a title (enclosed in quotes). The link definition can be placed anywhere after a blank line, but it's usually placed at the end of the document.
+The last line is the link definition. It consists of the link reference, followed by a colon `:`, followed by the URL. The optional title can be added by adding a space and enclosing the title in quotes.
+
+The link definition can be placed anywhere after a blank line, but it's usually placed at the end of the document.
 
 ### Images
 
-Images are similar to links, but they start with an exclamation mark `!`. The syntax is `![alt text](url)`. For example:
+Images are similar to links, but they start with an exclamation mark `!`. Its syntax is `![alt text](url)`. For example:
 
 ``` markdown
 ![A cute kitten](https://placekitten.com/200/200)
@@ -221,9 +225,19 @@ Images are similar to links, but they start with an exclamation mark `!`. The sy
 ??? abstract "See output"
     ![A cute kitten](https://placekitten.com/200/200)
 
+??? question "What is alt text?"
+    Alt text is used to describe the image. It is displayed when the image fails to load. It is also used by screen readers to describe the image to visually impaired users.
+
+??? tip "Adding a title to images"
+    Adding a title to images is similar to adding a title to links. Add a space after the URL and enclose the title in quotes. For example:
+
+    ``` markdown
+    ![A cute kitten](https://placekitten.com/200/200 "This is the image title.")
+    ```
+
 #### Reference-style images
 
-[Just like links](#reference-style-links), you can also use reference-style images. Nothing new here.
+[Just like links](#reference-style-links), you can also use reference-style images. Just add a `!` at the beginning of the link reference. Nothing else changes.
 
 ### Code
 
@@ -276,11 +290,3 @@ There's a line above me! That's the horizontal rule.
     Hello, world!
     ***
     There's a line above me! That's the horizontal rule.
-
-<style>
-  .output {
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 10px;
-  }
-</style>
