@@ -347,19 +347,19 @@ All classes have a \__init__() function in Python.
 
 ## Extended syntax
 
-!!! question "Did you know?"
-    This blog post is written in markdown! Check out the [source code](https://github.com/j-eo/website/blob/main/docs/blog/posts/markdown-tutorial.md?plain=1) to see how it's done. You may not understand everything, because it uses extensions to the markdown syntax.
-
 The CommonMark syntax was not enough for some people, so they extended the syntax to add more features. Let's learn about some of them.
 
-### GitHub Flavored Markdown
+!!! question "Did you know?"
+    This blog post is written in markdown! Check out the [source code](https://github.com/j-eo/website/blob/main/docs/blog/posts/markdown-tutorial.md?plain=1) to see how it's done. Some syntax might be unfamiliar since it uses markdown extensions.
+
+### :material-github: GitHub Flavored Markdown
 
 GitHub Flavored Markdown (GFM) is a superset of CommonMark. It adds some features that are useful for writing documentation, like tables, task lists, strikethrough, etc. If you use GitHub  The complete specification can be found [here](https://github.github.com/gfm/).
 
 ### Markdown Extra
 
-Markdown Extra supports features like markdown support inside HTML blocks, footnotes, abbreviations, definition lists, fenced code blocks, etc. Learn more about it [here](https://michelf.ca/projects/php-markdown/extra/).
+Markdown Extra (MDE) supports features like markdown support inside HTML blocks, footnotes, abbreviations, definition lists, fenced code blocks, etc. Learn more about it [here](https://michelf.ca/projects/php-markdown/extra/).
 
 ## That's about it
 
-That's all you need to know to get started with markdown. Now, you can write `README.md` files for your GitHub repositories, write blog posts, and more!
+Now you can write beautifully formatted `README.md` files for your open-source repositories, write blog posts, and more! :sparkles:
