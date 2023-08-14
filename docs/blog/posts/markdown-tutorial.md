@@ -123,7 +123,6 @@ Blockquotes are used to quote text from another source. Use `>` at the beginning
     > > This is a nested blockquote!
     > > > **Wow!**
 
-
 !!! success "Best practice"
     The space after `>` is not required, but it makes the markdown more readable.
 
@@ -253,7 +252,6 @@ Code blocks (or fences) are used to display a block of code (duh!). Code blocks 
 
         while True:
             os.fork()
-
 
 You can also use triple backticks `` ``` `` to create code blocks. For example:
 
