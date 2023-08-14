@@ -1,0 +1,288 @@
+---
+date: 2023-08-13
+authors:
+  - Jake
+categories:
+  - Guide
+  - Beginner
+tags:
+  - markdown
+comments: true
+---
+
+# Markdown tutorial
+
+[:material-language-markdown: Markdown](https://en.wikipedia.org/wiki/Markdown) is a simple markup language that allows you to write formatted text using a plain-text editor. It is a popular choice for writing documentation, blog posts, forum posts, and other content that is published online. If you don't know markdown already, this tutorial will teach you the basics.
+<!-- more -->
+Markdown files end with `.md` or `.markdown` extension, and are rendered with a markdown processor. The most popular markdown processor is [CommonMark](https://commonmark.org/).
+
+## A brief history of markdown
+
+Markdown was initially developed by John Gruber (with help from Aaron Swartz) in 2004. It was designed to be as readable and easy-to-write as possible, while being able to be converted to valid HTML.
+
+Markdown is now one of the most popular markup languages, and is used by many websites, including GitHub, Reddit, Stack Overflow, and more.
+
+## Markdown syntax
+
+This guide will cover the basic markdown syntax which is supported by most markdown processors. I will use [CommonMark](https://commonmark.org/) as a reference.
+
+### Text formatting
+
+Surround the text with `*` or `_` to emphasize the text. This is the syntax:
+
+``` markdown
+*This text is italic*
+**And, this text is bold**
+
+Or you can use underscores instead:
+
+_This text is also italic_
+__And, this text is also bold__
+```
+
+It's pretty straightforward. Here are some more examples:
+
+| Markdown | HTML | Rendered output |
+| -------- | ---- | --------------- |
+| `Markdown is **fun!**` | `Markdown is <b>fun!</b>` | Markdown is **fun!** |
+| `Dumbledore said _calmly_.` | `Dumbledore said <em>calmly</em>` | Dumbledore said _calmly_. |
+| `Super*cali*fragilistc...` | `Super<em>cali</em>fragilistc...` | Super*cali*fragilistc... |
+| `...**expi**alidocious` | `...<b>expi</b>alidocious` | ...**expi**alidocious |
+| `***Very important!***` | `<b><em>Very important!</em></b>` | **_Very important!_** |
+
+!!! success "Best practice"
+    For the best compatibility, use `*` instead of `_` for emphasis.
+
+### Paragraphs
+
+Paragraphs are separated by a blank line. For example:
+
+``` markdown
+This is the first paragraph.
+
+And this is the second one.
+I'm still on paragraph two, by the way.
+
+And this is the third paragraph.
+```
+
+??? tip "Adding a line break"
+    You can add a line break by adding two spaces or a backslash `\` at the end of the line. For example:
+
+    ``` markdown
+    This is the first line.\
+    And this is the second line.
+    ```
+
+### Headings
+
+Headings begin with a `#` and a space. You can use multiple `#` to change the level of the heading. The more the `#`, the smaller the heading. The level of heading corresponds to the HTML heading element as follows:
+
+```markdown
+# This is an <h1>
+## This is an <h2>
+### This is an <h3>
+#### This is an <h4>
+##### This is an <h5>
+###### This is an <h6>
+```
+
+You can also alternatively use this syntax to represent h1 and h2 headings:
+
+```markdown
+This is an <h1>
+===============
+
+This is an <h2>
+---------------
+```
+
+You can use formatting like emphasis in headings, too.
+
+!!! success "Best practice"
+    Add a line before and after headings to make them readable.
+
+### Blockquotes
+
+Blockquotes are used to quote text from another source. Use `>` at the beginning of the line to create a blockquote. You can also nest blockquotes by adding additional `>`.
+
+``` markdown
+> This is a blockquote.
+> It can span multiple lines.
+>
+> It can span multiple paragraphs, too.
+> > This is a nested blockquote!
+> > **Wow!**
+```
+
+??? abstract "See output"
+    > This is a blockquote.
+    > It can span multiple lines.
+    >
+    > It can span multiple paragraphs, too.
+    > > This is a nested blockquote!
+    > > > **Wow!**
+
+
+!!! success "Best practice"
+    The space after `>` is not required, but it makes the markdown more readable.
+
+### Lists
+
+Unordered lists can be created by using `*`, `-`, or `+` at the beginning of the line. For example:
+
+``` markdown
+* Caspar
+* Balthazar
+* Melchior
+```
+
+A space is required after the list marker.
+
+??? abstract "See output"
+    + Caspar
+    + Balthazar
+    + Melchior
+
+We can also nest lists. Nesting can be done by indenting the list marker. For example:
+
+``` markdown
+* Caspar
+  * name of the friendly ghost
+  * name of the Guru of Time in *Chrono Trigger*
+* Melchior
+```
+
+??? abstract "See output"
+    + Caspar
+        - name of the friendly ghost
+        - name of the Guru of Time in *Chrono Trigger*
+    + Melchior
+
+Ordered lists can be created by using numbers followed by a period `.` or a right parenthesis `)` at the beginning of the line. For example:
+
+``` markdown
+1. Caspar
+2. Balthazar
+3. Melchior
+```
+
+??? abstract "See output"
+    1. Caspar
+    2. Balthazar
+    3. Melchior
+
+If you start the list with a number other than 1, the numbers will be incremented accordingly. Also, you don't have to write the numbers in order, only the first number matter.
+
+### Links
+
+Links can be created by using this syntax: `[link text](url)`. For example:
+
+``` markdown
+[I am a *link*!](https://w.wiki/7FBk).
+
+Click [here](https://archive.org/) to visit the Internet Archive.
+```
+
+??? abstract "See output"
+    [I am a _link_!](https://w.wiki/7FBk).
+
+    Click [here](https://archive.org/) to visit the Internet Archive.
+
+??? tip "Adding a title to links"
+    Adding a title is as easy as adding a space after the URL and enclosing the title in quotes. For example:
+
+    ``` markdown
+    [I am a *link*!](https://w.wiki/7FBk "This is the link title.")
+    ```
+
+#### Reference-style links
+
+You can also use reference-style links. This is useful when you want to link to the same URL multiple times. This is how it works:
+
+``` markdown
+[Take me home!][homepage]
+Also, my social media accounts are listed [here][homepage].
+
+[homepage]: https://jake.is-a.dev/ "This is the link title."
+```
+
+`homepage` is the link reference. It can consist of letters, numbers, spaces and punctuation. It's not case-sensitive.
+
+The last line is the link definition. It consists of the link reference, followed by a colon `:`, followed by the URL and can optionally be followed by a title (enclosed in quotes). The link definition can be placed anywhere after a blank line, but it's usually placed at the end of the document.
+
+### Images
+
+Images are similar to links, but they start with an exclamation mark `!`. The syntax is `![alt text](url)`. For example:
+
+``` markdown
+![A cute kitten](https://placekitten.com/200/200)
+```
+
+??? abstract "See output"
+    ![A cute kitten](https://placekitten.com/200/200)
+
+#### Reference-style images
+
+[Just like links](#reference-style-links), you can also use reference-style images. Nothing new here.
+
+### Code
+
+Inline code can be created by surrounding the text with backticks `` ` ``. For example:
+
+``` markdown
+The `printf()` function is used to print text. This function is imported from the `stdio.h` header file.
+```
+
+??? abstract "See output"
+    The `printf()` function is used to print text. This function is imported from the `stdio.h` header file.
+
+#### Code blocks
+
+Code blocks (or fences) are used to display a block of code (duh!). Code blocks can be created by indenting the code by four spaces or one tab. For example:
+
+``` markdown
+    import os
+
+    while True:
+        os.fork()
+```
+
+??? abstract "See output"
+        import os
+
+        while True:
+            os.fork()
+
+
+You can also use triple backticks `` ``` `` to create code blocks. For example:
+
+    ```
+        import os
+
+        while True:
+            os.fork()
+    ```
+
+### Horizontal rules
+
+Horizontal rules can be created by placing three or more `*`, `-`, or `_` on a blank line. For example:
+  
+``` markdown
+Hello, world!
+***
+There's a line above me! That's the horizontal rule.
+```
+
+??? abstract "See output"
+    Hello, world!
+    ***
+    There's a line above me! That's the horizontal rule.
+
+<style>
+  .output {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+  }
+</style>
