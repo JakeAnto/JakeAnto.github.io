@@ -4,6 +4,7 @@ authors:
   - Jake
 categories:
   - Guide
+  - Beginner
 tags:
   - git
 comments: true
