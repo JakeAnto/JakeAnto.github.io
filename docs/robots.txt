@@ -3,4 +3,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jake.is-a.dev/sitemap.xml
+Sitemap: https://itsjake.me/sitemap.xml

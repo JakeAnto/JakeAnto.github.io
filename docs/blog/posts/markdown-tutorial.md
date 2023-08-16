@@ -205,7 +205,7 @@ You can also use reference-style links. This is useful when you want to link to 
 [Take me home!][homepage]
 Also, my social media accounts are listed [here][homepage].
 
-[homepage]: https://jake.is-a.dev/ "This is the link title."
+[homepage]: https://itsjake.me/ "This is the link title."
 ```
 
 `homepage` is the link reference. It can consist of letters, numbers, spaces and punctuation. It's not case-sensitive.
