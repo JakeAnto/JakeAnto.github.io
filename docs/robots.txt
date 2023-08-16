@@ -2,5 +2,6 @@
 
 User-agent: *
 Disallow:
+Disallow: /cdn-cgi/
 
 Sitemap: https://itsjake.me/sitemap.xml
