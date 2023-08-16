@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" version="1.1" viewBox="0 0 12.7 12.7" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <g transform="translate(-58.115 -125.49)">
+  <path d="m59.772 126.34-1.6573 2.8682 1.6573 2.8682h2.7674l-1.3812 2.3902 1.6573 2.8682h3.3145l1.6573-2.8682-1.3812-2.3902h2.7515l1.6573-2.8682-1.6573-2.8682h-3.3145l-1.3784 2.3855-1.3781-2.3855zm0.27076 0.47805h2.7727c0.45679 0.79671 0.91352 1.5934 1.3703 2.3902-0.45679 0.79673-0.91352 1.5935-1.3703 2.3902h-2.7727c0.51404-0.79673 1.0284-1.5935 1.5424-2.3902-0.51404-0.79672-1.0284-1.5934-1.5424-2.3902zm6.0713 0h2.7724c0.45679 0.79671 0.91383 1.5934 1.3706 2.3902-0.45679 0.79673-0.91383 1.5935-1.3706 2.3902h-2.7724c0.51405-0.79673 1.0281-1.5935 1.5421-2.3902-0.51404-0.79672-1.0281-1.5934-1.5421-2.3902zm-1.6495 2.8729 1.102 1.9075h-2.2041zm-1.3781 2.3855h2.7723c0.45679 0.79672 0.91383 1.5934 1.3706 2.3902-0.45679 0.79675-0.91383 1.5934-1.3706 2.3902h-2.7724c0.51405-0.79673 1.0281-1.5934 1.5421-2.3902-0.51404-0.79673-1.0281-1.5934-1.5421-2.3902z" stroke-width=".0079673"/>
+ </g>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Jake Anto</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+</svg>
