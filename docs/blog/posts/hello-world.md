@@ -22,7 +22,7 @@ The idea of starting a blog has been in my mind for a long time. After procrasti
 
 ### What will the blog focus on?
 
-I am planning to focus on writing posts related to technology. However, I'll also occasionally write about other fun stuff that piques my interest. Hopefully, I'll be featured in [Hacker News](https://news.ycombinator.com/) someday. 😄
+I am planning to focus on writing posts related to technology. However, I'll also occasionally write about other fun stuff that piques my interest. Hopefully, I'll be featured in [Hacker News](https://news.ycombinator.com/) someday. :smile:
 
 ### Why MkDocs?
 
@@ -38,4 +38,4 @@ Since English is not my native language, forgive the occasional grammar mistakes
 
 Thank you for taking your time to read this. Hopefully, I'll not forget about this blog and continue posting content.
 
-I would have encouraged you to subscribe to my blog, but there is no :material-rss:RSS support yet. 😞
+I would have encouraged you to subscribe to my blog, but there is no :material-rss:RSS support yet. :disappointed:
