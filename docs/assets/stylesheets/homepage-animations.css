@@ -51,15 +51,11 @@
 }
 
 @keyframes jake-animation {
-    0% {
+    0%, 100% {
         color: var(--md-typeset-color);
     }
 
     50% {
-        color: var(--md-primary-fg-color)
-    }
-
-    100% {
-        color: var(--md-typeset-color)
+        color: var(--md-primary-fg-color);
     }
 }
