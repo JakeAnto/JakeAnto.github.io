@@ -1,4 +1,5 @@
-Jake:
-  name: Jake Anto
-  description: I like computers.
-  avatar: /assets/images/profile-image.png
+authors:
+  Jake:
+    name: Jake Anto
+    description: I like computers.
+    avatar: /assets/images/profile-image.png
