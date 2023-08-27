@@ -1,4 +1,4 @@
-mkdocs-material==9.2.3
+mkdocs-material==9.2.5
 mkdocs-rss-plugin
 pillow
 cairosvg
