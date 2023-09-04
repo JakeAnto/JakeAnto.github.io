@@ -1,3 +1,1 @@
-# Welcome to my blog
-
-Check out my latest posts right here!
+# Latest Posts
