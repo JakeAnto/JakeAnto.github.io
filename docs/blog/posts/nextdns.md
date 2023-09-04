@@ -4,13 +4,14 @@ authors:
   - Jake
 categories:
   - Guide
+  - DNS
+  - Networking
 tags:
-  - dns
   - nextdns
 comments: true
 ---
 
-# NextDNS setup guide
+# A comprehensive guide to setting up NextDNS
 
 [:material-shield: NextDNS](https://nextdns.io/) is a DNS service that lets you block ads, trackers, malware, etc. This guide will help you set up your NextDNS configuration. You [do not have to sign up](#trying-out-nextdns) for NextDNS to follow this guide.
 <!-- more -->
