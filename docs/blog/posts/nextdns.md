@@ -26,9 +26,9 @@ Blocking trackers at the DNS level ensures that they are blocked not only in you
 
 ## My experience with NextDNS
 
-I have been using NextDNS as my DNS provider for the past few years, and I am satisfied with it. I've never subscribed for their premium tiers yet, as their generous free tier has been sufficient for me.
+I have been using NextDNS as my DNS provider for the past few years, and I am satisfied with it. I've never subscribed to their premium tiers yet, as their generous free tier has been sufficient for me.
 
-Their uptime may be a tad bit little lower than [Google Public DNS](https://dns.google/) and [Cloudflare DNS](https://1.1.1.1/), and their latency may be on the higher side, but the features they provide more than makes up for these drawbacks.
+Their uptime may be a tad bit lower than [Google Public DNS](https://dns.google/) and [Cloudflare DNS](https://1.1.1.1/), and their latency may be on the higher side, but the features they provide more than make up for these drawbacks.
 
 ## Trying out NextDNS
 
@@ -95,7 +95,7 @@ Most of the time, [parked domains](https://en.wikipedia.org/wiki/Domain_parking)
 
 #### Block Top-Level Domains (TLDs)
 
-Top-level domains (TLDs) are the segment that follows the final dot of a domain name (usually), like `.com`, `.org`, etc. This option allows you to block entire TLDs. Some TLDs are known to be extensively abused by malicious actors. According to [this alternative guide](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-5-), the following TLDs have no legitimate uses and are good candidates for blocking:
+Top-level domain (TLD) is the segment that follow the final dot of a domain name (usually), like `.com`, `.org`, etc. This option allows you to block entire TLDs. Some TLDs are known to be extensively abused by malicious actors. According to [this alternative guide](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-5-), the following TLDs have no legitimate uses and are good candidates for blocking:
 
 ```plaintext
 .cfd
@@ -127,7 +127,7 @@ If you want more trackers/ads blocked, you can enable more blocklists at the cos
 
 #### Native Tracking Protection
 
-Native Tracking Protection blocks trackers that operate on the operating system level. Add the brands of all the devices you own. It is recommended to add every brand even though you don't own them.
+Native Tracking Protection blocks trackers that operate on the operating system level. Add the brands of all the devices you own. It is recommended to add every brand, even if you don't own them.
 
 #### :fontawesome-solid-toggle-on: Block Disguised Third-Party Trackers
 
@@ -139,7 +139,7 @@ I like to keep this disabled because I seldom use affiliate links. You can enabl
 
 ### :material-human-male-female-child: Parental Control
 
-Fun fact, you don't have to be a parent to use these feature:
+Fun fact, you don't have to be a parent to use these features:
 
 #### Websites, Apps & Games
 
@@ -163,7 +163,7 @@ Enabling this will force YouTube to use restricted mode. Restricted mode hides v
 
 #### :fontawesome-solid-toggle-off: Block Bypass Methods
 
-I recommend leaving this off as enabling this could break some websites and block access to Tor, VPNs, proxies, etc. Your tech-savvy kids will find a way to bypass this anyway.
+I recommend leaving this off, as enabling it could break some websites and block access to Tor, VPNs, proxies, etc. Your tech-savvy kids will find a way to bypass this anyway.
 
 ### :material-minus-box: Denylist
 
@@ -171,7 +171,7 @@ Adding a domain to the denylist will result in NextDNS blocking that domain and 
 
 ### :material-plus-box: Allowlist
 
-Any domain on the allowlist will not get blocked by NextDNS regardless of the blocklists you have enabled. You may want to add critical domains on this list, like government websites, your bank's website, etc. just to be safe.
+Any domain on the allowlist will not get blocked by NextDNS, regardless of the blocklists you have enabled. You may want to add critical domains to this list, like government websites, your bank's website, etc., just to be safe.
 
 If you encounter a false-positive, add the domain to the allowlist to unblock it. You may want to clear the local DNS cache of your device for it to take effect.
 
@@ -210,13 +210,13 @@ Enabling this will improve the performance by resolving `CNAME` records to their
 
 #### Web3
 
-Since this is a beta feature, and I don't use Web3, I have this disabled.
+Since this is a beta feature and I don't use Web3, I have this disabled.
 
 ## FAQs
 
 ### So, that's it? Is it set-and-forget?
 
-Uhm, depends on how aggressive your blocklists are. You'll probably need to come back to the dashboard once in a while to add domains to the [allowlist](#allowlist).
+Uhm, it depends on how aggressive your blocklists are. You'll probably need to come back to the dashboard once in a while to add domains to the [allowlist](#allowlist).
 
 ### Why am I still seeing ads?
 
@@ -228,17 +228,17 @@ Add the domain to the [allowlist](#allowlist). You may want to clear the local D
 
 ### Any privacy-friendly alternatives to NextDNS?
 
-If you need a self-hosted solution, you can use [:material-pi-hole: Pi-hole](https://pi-hole.net/). If you want a cloud-based solution, you can use [:simple-adguard: AdGuard DNS](https://adguard-dns.io/), also free up to 300k queries per month.
+If you need a self-hosted solution, you can use [:material-pi-hole: Pi-hole](https://pi-hole.net/). If you want a cloud-based solution, you can use [:simple-adguard: AdGuard DNS](https://adguard-dns.io/), also free upto 300k queries per month.
 
 If you are looking for alternative DNS services that provide malware blocking, you can use [Quad9](https://www.quad9.net/service/service-addresses-and-features) or [Mullvad DNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/), both of which are privacy-friendly.
 
 ### Will adding more blocklists increase the latency?
 
-No, it won't. The latency will stay the same regardless of the number of filters you have enabled. Don't go on about enabling every single blocklist, though. I know it's tempting, but that'll only increase the chances of false-positives. How many blocklists should you enable depends on your threat model.
+No, it won't. The latency will stay the same regardless of the number of filters you have enabled. Don't go on about enabling every single blocklist, though. I know it's tempting, but that'll only increase the chances of false-positives. How many blocklists you should enable depends on your threat model.
 
 ### Is the free plan enough?
 
-It depends on your usage. I have been using it on most of the devices I own and I haven't hit the free plan's limit yet. The free plan gives you 300k queries per month. If you have a lot of devices, you may want to consider upgrading to a paid plan. Over here in India, the pro plan costs just INR ₹159.00 per month. For unlimited queries, that doesn't sound bad at all.
+It depends on your usage. I have been using it on most of the devices I own, and I haven't hit the free plan's limit yet. The free plan gives you 300k queries per month. If you have a lot of devices, you may want to consider upgrading to a paid plan. Over here in India, the pro plan costs just INR ₹159.00 per month. For unlimited queries, that doesn't sound bad at all.
 
 ### What happens if I hit the free plan's limit?
 
@@ -246,6 +246,6 @@ After hitting 300k queries, NextDNS will stop filtering your DNS queries. It'll 
 
 ### More questions?
 
-Feel free to shoot quick questions on the comments below. Alternatively, ask them on the [NextDNS Help Center](https://help.nextdns.io/) or on the official [subreddit](https://www.reddit.com/r/nextdns/).
+Feel free to ask quick questions in the comments below. Alternatively, ask them on the [NextDNS Help Center](https://help.nextdns.io/) or on the official [subreddit](https://www.reddit.com/r/nextdns/).
 
 Also check out [this alternative guide by yokoffing](https://github.com/yokoffing/NextDNS-Config/blob/main/README.md) and [this video by Techlore](https://neat.tube/w/19r4YnE6fpce6e2B9MepnB) for more information.
