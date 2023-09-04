@@ -12,14 +12,14 @@ comments: true
 
 # NextDNS setup guide
 
-[:material-shield: NextDNS](https://nextdns.io/) is a DNS service that can be used to block ads, trackers, malware, etc. This guide will help you set up your NextDNS configuration. You [do not have to sign up](#trying-out-nextdns) for NextDNS to follow this guide.
+[:material-shield: NextDNS](https://nextdns.io/) is a DNS service that lets you block ads, trackers, malware, etc. This guide will help you set up your NextDNS configuration. You [do not have to sign up](#trying-out-nextdns) for NextDNS to follow this guide.
 <!-- more -->
 ??? info "This guide is **NOT** sponsored by NextDNS."
     No affiliate links are used in this guide. I'm just a happy user of NextDNS.
 
 ## What does it do?
 
-The key feature of NextDNS is its ability to block ads and trackers at the DNS level. It is highly customizable, allowing you to create tailored filtering rules, whitelist or blacklist specific domains, and monitor your network's DNS queries through logs and analytics. It is a cloud-based alternative to [Pi-hole](https://pi-hole.net/), which is a self-hosted DNS sinkhole that can also block ads and trackers.
+The key feature of NextDNS is its ability to block ads and trackers at the DNS level. It is highly customizable, allowing you to create tailored filtering rules, whitelist or blacklist specific domains, and monitor your network's DNS queries through logs and analytics. It is a cloud-based alternative to [:material-pi-hole: Pi-hole](https://pi-hole.net/), which is a self-hosted DNS sinkhole that can also block ads and trackers.
 
 Blocking trackers at the DNS level ensures that they are blocked not only in your browser (like how an adblock would do), but also across all the apps on your device. It will reduce your data usage and improve your privacy.
 
@@ -46,7 +46,7 @@ After creating your first configuration (`My First Profile`), you'll be presente
 
 Let's move on to customization. I will give you recommendations on what to enable and disable, but play around with the settings and see what works best for you.
 
-### Security
+### :material-security: Security
 
 #### :fontawesome-solid-toggle-on: Threat Intelligence Feeds
 
@@ -82,7 +82,7 @@ A [DGA](https://en.wikipedia.org/wiki/Domain_generation_algorithm) is a techniqu
 
 #### :fontawesome-solid-toggle-on: Block Newly Registered Domains (NRDs)
 
-Enabling this option will block domains registered less than 30 days ago. NRDs are often malicious but may also be used by legitimate websites. Turning this on may cause some false-positives.
+Enabling this option will block domains registered less than 30 days ago. NRDs are often malicious but may also be used by legitimate websites. Turning this on may cause some false-positives. I'd suggest enabling this unless you work with newly registered domains.
 
 #### :fontawesome-solid-toggle-off: Block Dynamic DNS Hostnames
 
@@ -94,7 +94,7 @@ Most of the time, [parked domains](https://en.wikipedia.org/wiki/Domain_parking)
 
 #### Block Top-Level Domains (TLDs)
 
-This option allows you to block entire TLDs. Some TLDs are known to be extensively abused by malicious actors. According to [this alternative guide](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-5-), the following TLDs have no legitimate uses and are good candidates for blocking:
+Top-level domains (TLDs) are the segment that follows the final dot of a domain name (usually), like `.com`, `.org`, etc. This option allows you to block entire TLDs. Some TLDs are known to be extensively abused by malicious actors. According to [this alternative guide](https://github.com/yokoffing/NextDNS-Config#block-top-level-domains-tlds-1-2-3-4-5-), the following TLDs have no legitimate uses and are good candidates for blocking:
 
 ```plaintext
 .cfd
@@ -111,7 +111,7 @@ This option allows you to block entire TLDs. Some TLDs are known to be extensive
 
 According to NextDNS, this option will block domains hosting child sexual abuse material (CSAM) with the help of [Project Arachnid](https://projectarachnid.ca/en/), operated by the [Canadian Centre for Child Protection](https://www.protectchildren.ca/). I recommend enabling this.
 
-### Privacy
+### :material-lock: Privacy
 
 #### Blocklists
 
@@ -134,27 +134,47 @@ Some third-party trackers disguise themselves as first-party to trick adblockers
 
 #### :fontawesome-solid-toggle-off: Allow Affiliate & Tracking Links
 
-I like to keep this disabled because I seldom use affiliate links. Enable this if you encounter difficulties opening links from emails.
+I like to keep this disabled because I seldom use affiliate links. You can enable it if you have trouble opening links from emails or if you want to use affiliate links.
 
-### Parental Control
+### :material-human-male-female-child: Parental Control
 
-This section may be particularly useful for parents. I'm not a parent, so I'm not sure.
+Fun fact, you don't have to be a parent to use these feature:
+
+#### Websites, Apps & Games
+
+Block access to specific websites, apps, and games here. Don't want to waste time on [Mastodon](https://joinmastodon.org/)? Block it here.
+
+#### Categories
+
+Add the categories of websites you want to block here.
+
+#### Recreation Time
+
+This feature allows you to set a time period during which access to specific websites, apps, and games you've selected will be allowed.
+
+#### SafeSearch
+
+Enabling this will force search engines to filter out explicit content from the search results. If the search engine does not support safe search, access to the search engine will be blocked.
+
+#### YouTube Restricted Mode
+
+Enabling this will force YouTube to use restricted mode. Restricted mode hides videos that may contain inappropriate content. This also hides the video comments.
 
 #### :fontawesome-solid-toggle-off: Block Bypass Methods
 
-I recommend leaving this off as enabling this could break some websites. Your tech-savvy kids will find a way to bypass this anyway.
+I recommend leaving this off as enabling this could break some websites and block access to Tor, VPNs, proxies, etc. Your tech-savvy kids will find a way to bypass this anyway.
 
-### Denylist
+### :material-minus-box: Denylist
 
 Adding a domain to the denylist will result in NextDNS blocking that domain and all of its subdomains.
 
-### Allowlist
+### :material-plus-box: Allowlist
 
 Any domain on the allowlist will not get blocked by NextDNS regardless of the blocklists you have enabled. You may want to add critical domains on this list, like government websites, your bank's website, etc. just to be safe.
 
 If you encounter a false-positive, add the domain to the allowlist to unblock it. You may want to clear the local DNS cache of your device for it to take effect.
 
-### Settings
+### :material-cog: Settings
 
 #### Logs
 
@@ -199,7 +219,7 @@ Uhm, depends on how aggressive your blocklists are. You'll probably need to come
 
 ### Why am I still seeing ads?
 
-Some ads are served from the same domain as the content you're trying to access. An example for this is YouTube. If you want to robustly block ads and annoyances, you'll need to use a browser extension. I recommend using [uBlock Origin](https://ublockorigin.com/).
+Some ads are served from the same domain as the content you're trying to access. An example for this is YouTube. If you want to robustly block ads and annoyances, you'll need to use a browser extension. I recommend using [:simple-ublockorigin: uBlock Origin](https://ublockorigin.com/).
 
 ### A legitimate domain is being blocked. What do I do?
 
@@ -207,13 +227,13 @@ Add the domain to the [allowlist](#allowlist). You may want to clear the local D
 
 ### Any privacy-friendly alternatives to NextDNS?
 
-If you need a self-hosted solution, you can use [Pi-hole](https://pi-hole.net/). If you want a cloud-based solution, you can use [AdGuard DNS](https://adguard-dns.io/), also free up to 300k queries per month.
+If you need a self-hosted solution, you can use [:material-pi-hole: Pi-hole](https://pi-hole.net/). If you want a cloud-based solution, you can use [:simple-adguard: AdGuard DNS](https://adguard-dns.io/), also free up to 300k queries per month.
 
 If you are looking for alternative DNS services that provide malware blocking, you can use [Quad9](https://www.quad9.net/service/service-addresses-and-features) or [Mullvad DNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/), both of which are privacy-friendly.
 
 ### Will adding more blocklists increase the latency?
 
-No, it won't. The latency will stay the same regardless of the number of filters you have enabled. Don't go on about enabling every blocklist you see, though. That'll only increase the chances of false-positives.
+No, it won't. The latency will stay the same regardless of the number of filters you have enabled. Don't go on about enabling every single blocklist, though. I know it's tempting, but that'll only increase the chances of false-positives. How many blocklists should you enable depends on your threat model.
 
 ### Is the free plan enough?
 
@@ -226,3 +246,5 @@ After hitting 300k queries, NextDNS will stop filtering your DNS queries. It'll 
 ### More questions?
 
 Feel free to shoot quick questions on the comments below. Alternatively, ask them on the [NextDNS Help Center](https://help.nextdns.io/) or on the official [subreddit](https://www.reddit.com/r/nextdns/).
+
+Also check out [this alternative guide by yokoffing](https://github.com/yokoffing/NextDNS-Config/blob/main/README.md) and [this video by Techlore](https://neat.tube/w/19r4YnE6fpce6e2B9MepnB) for more information.
