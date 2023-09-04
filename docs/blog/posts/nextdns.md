@@ -15,7 +15,7 @@ comments: true
 [:material-shield: NextDNS](https://nextdns.io/) is a DNS service that can be used to block ads, trackers, malware, etc. This guide will help you set up your NextDNS configuration. You [do not have to sign up](#trying-out-nextdns) for NextDNS to follow this guide.
 <!-- more -->
 ??? info "This guide is **NOT** sponsored by NextDNS."
-    No affiliate links are used in this guide. Except [this one](https://nextdns.io/?from=d93f6mm7).
+    No affiliate links are used in this guide. I'm just a happy user of NextDNS.
 
 ## What does it do?
 
