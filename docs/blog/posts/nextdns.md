@@ -4,10 +4,10 @@ authors:
   - Jake
 categories:
   - Guide
-  - DNS
   - Networking
 tags:
   - nextdns
+  - dns
 comments: true
 ---
 
