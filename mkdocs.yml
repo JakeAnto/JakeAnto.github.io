@@ -96,9 +96,9 @@ nav:
   - Blog:
     - blog/index.md
 
-repo_name: j-eo/j-eo.github.io
-repo_url: https://github.com/j-eo/j-eo.github.io
+repo_name: j-eo/website
+repo_url: https://github.com/j-eo/website
 
-edit_uri: https://github.com/j-eo/j-eo.github.io/edit/main/docs/
+edit_uri: https://github.com/j-eo/website/edit/main/docs/
 
 copyright: This work © 2023 by Jake Anto is licensed under <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
