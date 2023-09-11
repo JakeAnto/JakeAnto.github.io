@@ -85,7 +85,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/j-eo
+      link: https://github.com/jake-anto
       name: Jake Anto on GitHub
     - icon: fontawesome/brands/mastodon
       link: https://fosstodon.org/@jake_a
