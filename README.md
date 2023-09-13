@@ -1,4 +1,4 @@
-[![Cloudflare Pages deployment](https://github.com/j-eo/website/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/j-eo/website/actions/workflows/pages/pages-build-deployment)
+[![Cloudflare Pages deployment](https://github.com/jake-anto/website/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/j-eo/website/actions/workflows/pages/pages-build-deployment)
 
 ## About
 
