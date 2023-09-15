@@ -1,3 +1,5 @@
-mkdocs-material[imaging]
+mkdocs-material
 mkdocs-rss-plugin~=1.6
+pillow
+cairosvg
 mkdocs-glightbox
