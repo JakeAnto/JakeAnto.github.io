@@ -1,6 +1,3 @@
-mkdocs-material
-mkdocs-rss-plugin
-pillow
-cairosvg
-mkdocs-git-revision-date-localized-plugin
+mkdocs-material[imaging]
+mkdocs-rss-plugin~=1.6
 mkdocs-glightbox
