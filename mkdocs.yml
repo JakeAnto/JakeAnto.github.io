@@ -16,6 +16,7 @@ theme:
     - content.action.view
     - content.code.copy
     - navigation.instant
+    - navigation.instant.progress
     - navigation.tabs
     - navigation.top
     - search.suggest
