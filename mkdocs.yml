@@ -1,7 +1,7 @@
 site_name: Jake Anto
 site_url: https://itsjake.me/
 site_author: Jake Anto
-site_description: Jake Anto's personal website and blog, where he writes about Linux, AI, programming, and more.
+site_description: Jake Anto's portfolio and blog, where he writes about Linux, AI, programming, and more.
 
 theme:
   name: material
@@ -49,7 +49,7 @@ plugins:
       blog_toc: false
       post_url_format: "{slug}"
   - rss:
-      use_git: false  # Fix for Cloudflare Pages
+      use_git: false  # Fix for Cloudflare Pages build
       match_path: blog/posts/.*
       date_from_meta:
         as_creation: date
