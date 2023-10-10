@@ -18,7 +18,7 @@ Markdown files end with `.md` or `.markdown` extension, and are rendered with a 
 
 ## A brief history of markdown
 
-Markdown was initially developed by John Gruber (with help from Aaron Swartz) in 2004. It was designed to be as readable and easy-to-write as possible, while being able to be converted to valid HTML.
+Markdown was initially developed by [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) (with help from [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz)) in 2004. It was designed to be as readable and easy-to-write as possible, while being able to be converted to valid HTML.
 
 Markdown is now one of the most popular markup languages, and is used by many websites, including GitHub, Reddit, Stack Overflow, and more.
 
