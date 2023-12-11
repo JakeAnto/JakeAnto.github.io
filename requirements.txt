@@ -1,5 +1,5 @@
 mkdocs-material
-mkdocs-rss-plugin~=1.8
+mkdocs-rss-plugin~=1.9
 pillow
 cairosvg
 mkdocs-glightbox
