@@ -61,7 +61,9 @@ plugins:
       lang: en
   - social
   - glightbox
-  - privacy
+  - privacy:
+      assets_exclude:
+        - giscus.app/*
 
 markdown_extensions:
   - attr_list
