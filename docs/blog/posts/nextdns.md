@@ -228,7 +228,7 @@ Add the domain to the [allowlist](#allowlist). You may want to clear the local D
 
 ### Any privacy-friendly alternatives to NextDNS?
 
-If you need a self-hosted solution, you can use [:material-pi-hole: Pi-hole](https://pi-hole.net/). If you want a cloud-based solution, you can use [:simple-adguard: AdGuard DNS](https://adguard-dns.io/), also free upto 300k queries per month.
+If you need a self-hosted solution, you can use [:material-pi-hole: Pi-hole](https://pi-hole.net/). If you want a cloud-based solution, you can use [:simple-adguard: AdGuard DNS](https://adguard-dns.io/), also free up to 300k queries per month.
 
 If you are looking for alternative DNS services that provide malware blocking, you can use [Quad9](https://www.quad9.net/service/service-addresses-and-features) or [Mullvad DNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/), both of which are privacy-friendly.
 
