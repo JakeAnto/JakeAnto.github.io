@@ -223,7 +223,7 @@ Images are similar to links, but they start with an exclamation mark `!`. Its sy
 ```
 
 ??? abstract "See output"
-    ![A cute kitten](https://placekitten.com/200/200)
+    ![A cute kitten](../../assets/images/blog/cat.jpg)
 
 ??? question "What is alt text?"
     Alt text is used to describe the image. It is displayed when the image fails to load. It is also used by screen readers to describe the image to visually impaired users.
