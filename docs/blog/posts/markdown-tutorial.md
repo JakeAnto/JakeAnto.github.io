@@ -219,11 +219,11 @@ The link definition can be placed anywhere after a blank line, but it's usually 
 Images are similar to links, but they start with an exclamation mark `!`. Its syntax is `![alt text](url)`. For example:
 
 ``` markdown
-![A cute kitten](https://placekitten.com/200/200)
+![A cute kitten](https://placekitten.com/200/200 "Aww!")
 ```
 
 ??? abstract "See output"
-    ![A cute kitten](../../assets/images/blog/cat.jpg)
+    ![A cute kitten](../../assets/images/blog/cat.jpg "Aww!")
 
 ??? question "What is alt text?"
     Alt text is used to describe the image. It is displayed when the image fails to load. It is also used by screen readers to describe the image to visually impaired users.
