@@ -246,7 +246,7 @@ After hitting 300k queries, NextDNS will stop filtering your DNS queries. It'll 
 
 ### More questions?
 
-Feel free to ask quick questions or raise issues in the comments below. Alternatively, ask them on the [NextDNS Help Center](https://help.nextdns.io/) or on the official [subreddit](https://www.reddit.com/r/nextdns/).
+Feel free to ask quick questions or raise issues in the comments below. Alternatively, ask them on the [NextDNS Help Center](https://help.nextdns.io/) or on the [official subreddit](https://www.reddit.com/r/nextdns/).
 
 Also check out [this alternative guide by yokoffing](https://github.com/yokoffing/NextDNS-Config/blob/main/README.md) and [this video by Techlore](https://neat.tube/w/19r4YnE6fpce6e2B9MepnB) for more information.
 
