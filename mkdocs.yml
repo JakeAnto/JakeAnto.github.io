@@ -62,7 +62,6 @@ plugins:
       lang: en
   - social
   - glightbox
-  - privacy
 
 markdown_extensions:
   - attr_list
