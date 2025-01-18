@@ -1,0 +1,7 @@
+# This is for Bender. He's a good bot.
+
+User-agent: *
+Disallow:
+Disallow: /cdn-cgi/
+
+Sitemap: https://itsjake.me/sitemap.xml
